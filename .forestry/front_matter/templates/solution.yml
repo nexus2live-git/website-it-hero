@@ -1,4 +1,42 @@
 ---
 label: Solution
 hide_body: false
-fields: []
+fields:
+- name: solution_title
+  type: text
+  config:
+    required: true
+  description: Title of products or services
+  label: Solution title
+- name: solution_type
+  type: select
+  default: Services
+  config:
+    required: true
+    options:
+    - Services
+    - Software
+    - Hardware
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Solution type
+  description: Service, Software, or Hardware
+- name: solution_thumbnail
+  type: file
+  config:
+    maxSize: 1
+  label: Solution thumbnail
+  description: An image that represent solution
+- name: solution_description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Solution description
+  description: Explain what is your solution
