@@ -5,6 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _products_hardware
+  label: Products Hardware
+  create: documents
+  match: "**/*"
+- type: directory
+  path: _products_software
+  label: Products Software
+  create: documents
+  match: "**/*"
+- type: directory
   path: _services
   label: Services
   create: documents
