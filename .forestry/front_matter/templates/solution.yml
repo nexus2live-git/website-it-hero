@@ -40,3 +40,5 @@ fields:
       format: markdown
   label: Solution description
   description: Explain what is your solution
+pages:
+- _posts/testsolution.md
