@@ -37,9 +37,9 @@ plugins:
 collections:
   services:
     output: true
-  products_software:
-    output: true
   products_hardware:
+    output: true
+  products_software:
     output: true
 # Exclude from processing.
 # The following items will not be processed, by default.
