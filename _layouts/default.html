@@ -116,38 +116,25 @@
       <div class="col-12 col-sm-6 col-md-3">
         <h4>บริการ</h4>
         <ul>
-          <li>E-mail บนระบบ cloud</li>
-          <li>เก็บข้อมูลส่วนกลางบนระบบ cloud</li>
-          <li>ระบบ Video conference</li>
-          <li>ดูแลและแก้ไขปัญหาคอมพิวเตอร์ภายในบริษัท</li>
-          <li>ระบบทำงานจากภายนอกออฟฟิศ</li>
-          <li>ระบบเก็บข้อมูลส่วนกลางภายในบริษัท</li>
-          <li>ระบบสำรองข้อมูล</li>
-          <li>ระบบเครือข่าย มีสายและไร้สาย</li>
+          {% for service in site.services %}
+          <li><a href="{{service.url}}">{{ service.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
         <h4>สินค้า Hardware</h4>
         <ul>
-          <li>Server (Dell / HP / Lenovo)<li>
-          <li>NAS (QNAP)<li>
-          <li>Network (Switch / Router / Firewall / Wireless AP)<li>
-          <li>Business Laptop / PC (Dell / HP / Lenovo)<li>
-          <li>Workstation (Dell / HP / Lenovo)<li>
-          <li>Firewall (Fortigate)<li>
-          <li>Printer<li>
+          {% for product in site.products_hardware %}
+          <li><a href="{{product.url}}">{{ product.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
         <h4>สินค้า Software</h4>
         <ul>
-          <li>Microsoft 365</li>
-          <li>Microsoft Windows / Office</li>
-          <li>Anti-virus (Bit-Defender / Kaspersky)</li>
-          <li>Adobe Creative Cloud for Team</li>
-          <li>Autodesk (AutoCAD/LT)</li>
-          <li>GstarCAD</li>
-          <li>SketchUp Pro</li>
+          {% for product in site.products_software %}
+          <li><a href="{{product.url}}">{{ product.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-12 col-sm-6 col-md-3">
