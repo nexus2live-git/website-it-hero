@@ -5,9 +5,15 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: file
   name: thumbnail
   label: thumbnail
+  config:
+    maxSize: 1
 - type: text
   name: description
   label: description
+  config:
+    required: true
