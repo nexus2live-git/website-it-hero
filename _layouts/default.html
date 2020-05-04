@@ -53,22 +53,22 @@
               <a class="nav-link waves-effect" href="#">หน้าแรก
               </a>
             </li> -->
-            <li class="nav-item active">
+            <li class="nav-item{% if page.url == '/promotion' %} active{% endif %}">
               <a class="nav-link waves-effect px-lg-3 mx-md-2" href="/promotion">โปรโมชั่น
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item{% if page.url == '/services/' %} active{% endif %}">
               <a class="nav-link waves-effect px-lg-3 mx-md-2" href="/services">บริการ
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item{% if page.url == '/products' %} active{% endif %}">
               <a class="nav-link waves-effect px-lg-2 mx-lg-2" href="/products">สินค้า</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item{% if page.url == '/blog' %} active{% endif %}">
               <a class="nav-link waves-effect px-lg-2 mx-lg-2" href="/blog" target="_blank">บทความ</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item{% if page.url == '/contact' %} active{% endif %}">
               <a class="nav-link waves-effect px-lg-2 mx-lg-2" href="/contact">ติดต่อ</a>
             </li>
           </ul>
