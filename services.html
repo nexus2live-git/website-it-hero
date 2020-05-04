@@ -3,8 +3,6 @@ layout: default
 title: Services
 ---
 
-  <main class="main-margin-padding">
-    <div class="container">
       <h1>Services</h1>
       <div class="row">
       {% for service in site.services %}
@@ -14,5 +12,3 @@ title: Services
       {% for service in site.services %}
         {% include components/card-long.html url=service.url title=service.title thumbnail=service.thumbnail description=service.description content=service.content %}
       {% endfor %}
-    </div>
-  </main>

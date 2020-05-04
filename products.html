@@ -3,8 +3,6 @@ layout: default
 title: Products
 ---
 
-  <main class="main-margin-padding">
-    <div class="container">
       <h1>Products</h1>
       {% for product in site.products_software %}
         {% include components/card-long.html url=product.url title=product.title thumbnail=product.thumbnail description=product.description content=product.content %}
@@ -12,5 +10,3 @@ title: Products
       {% for product in site.products_hardware %}
         {% include components/card-long.html url=product.url title=product.title thumbnail=product.thumbnail description=product.description content=product.content %}
       {% endfor %}
-    </div>
-  </main>
