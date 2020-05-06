@@ -17,3 +17,5 @@ fields:
   label: description
   config:
     required: true
+pages:
+- _services/กหฟกฟหก.md
