@@ -18,4 +18,5 @@ fields:
   config:
     required: true
 pages:
+- _products_hardware/abc.md
 - _services/กหฟกฟหก.md
