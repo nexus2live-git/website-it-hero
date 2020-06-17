@@ -1,6 +1,6 @@
 ---
-title: ดูแลและแก้ไขปัญหาคอมพิวเตอร์ภายในบริษัท
+title: ดูแลและแก้ไขปัญหาคอมพิวเตอร์
 thumbnail: "/assets/uploads/placeholder.png"
-description: Ipsum lorem
+description: Computer Maintenance Services
 
 ---
