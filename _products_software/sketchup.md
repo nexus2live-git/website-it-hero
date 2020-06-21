@@ -1,7 +1,7 @@
 ---
 title: SketchUp Pro
 thumbnail: "/assets/uploads/placeholder.png"
-description: SketchUp
+description: SketchUp Pro
 
 ---
 ![](/assets/uploads/2560px-sketchup_logo-svg.png)
