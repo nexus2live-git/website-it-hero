@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365
+title: Microsoft 365 (Subscription)
 thumbnail: "/assets/uploads/placeholder.png"
-description: Ipsum lorem
+description: Microsoft 365
 
 ---
