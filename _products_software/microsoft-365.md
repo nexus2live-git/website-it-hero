@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 (Subscription)
-thumbnail: "/assets/uploads/placeholder.png"
+thumbnail: "/assets/uploads/micrososft_365_logo.png"
 description: Microsoft 365
 
 ---
