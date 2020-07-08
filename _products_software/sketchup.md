@@ -1,6 +1,6 @@
 ---
 title: SketchUp Pro
-thumbnail: "/assets/uploads/2560px-sketchup_logo-svg.png"
+thumbnail: "/assets/uploads/sketchup_logo.png"
 description: SketchUp Pro
 
 ---
